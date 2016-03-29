@@ -1,0 +1,15 @@
+#bullet {
+  height: 10%;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #444;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 10px;
+  fill: #777;
+}

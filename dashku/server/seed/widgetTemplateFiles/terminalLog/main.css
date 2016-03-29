@@ -1,0 +1,27 @@
+#terminalLog {
+  text-align: left; 
+  font-family: "Monaco";
+  font-size: 8pt;
+  color: white;
+  padding-left: 30px
+}
+
+.grey {
+  color: #B4B4B4; 
+}
+
+.green {
+ color: #8AD13D; 
+}
+
+.gold {
+ color: #F7F033; 
+}
+
+.lightblue {
+ color: #34D0F7; 
+}
+
+.default {
+ color: white; 
+}

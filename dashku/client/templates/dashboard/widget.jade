@@ -1,0 +1,7 @@
+.widget(data-id="{{_id}}", style="width:{{width}}px; height: {{height}}px;")
+  .buttons
+    i.fa.fa-cog.edit(title="edit widget")
+    i.fa.fa-times-circle-o.delete(title="delete widget")
+  .header(contenteditable="true") {{name}}
+  style  {{{scopedCSS}}}
+  .content {{{html}}}

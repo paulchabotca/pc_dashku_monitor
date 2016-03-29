@@ -1,0 +1,28 @@
+{
+  "name": "Dashku Open Source Edition",
+  "description": "Realtime Dashboards and Widgets, using HTML, CSS, and JavaScript",
+  "keywords": [
+    "dashboard",
+    "realtime",
+    "socketstream",
+    "node",
+    "mongodb",
+    "redis"
+  ],
+  "website": "https://github.com/Anephenix/dashku",
+  "repository": "https://github.com/Anephenix/dashku",
+  "logo": "https://pbs.twimg.com/profile_images/579271979515166720/Kfzusyjd_400x400.png",
+  "env": {
+    "APP_URL" : {
+      "description" : "The url for the application, without the forward slash at the end e.g. http://my-dashboard.com",
+      "required" : true
+    }
+  },
+  "addons": [
+    "rediscloud",
+    "mongolab"
+  ],
+  "scripts": {
+    "postdeploy": "npm run populateWidgetTemplates"
+  }
+}

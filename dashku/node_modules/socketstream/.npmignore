@@ -1,0 +1,5 @@
+docs
+.hound.yml
+.travis.yml
+.javascript.json
+TODO.md

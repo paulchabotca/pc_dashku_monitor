@@ -1,0 +1,9 @@
+/* your widget's CSS goes here */
+
+canvas {
+  margin-top: 15%;
+}
+
+.message {
+  padding-top:10px;
+}

@@ -1,0 +1,8 @@
+{
+  "amount": 3,
+  "total": 10,
+  "colours": {
+    "amount": "#51FF00",
+    "total": "rgba(255,255,255,0.05)"
+  }
+}

@@ -1,0 +1,25 @@
+text {
+  text-anchor:middle;
+  font-size:10px;
+  font-weight:normal;
+}
+
+g.axis text{
+  stroke: grey;
+}
+
+text.big{
+  stroke: white;
+  fill: white;
+}
+
+line.tick {
+  stroke-width: 1px;
+  stroke: grey;
+}
+
+.domain { 
+  fill: none; 
+  stroke: white; 
+  stroke-width; 1; 
+} 

@@ -1,0 +1,21 @@
+doctype html
+html(lang="en")
+  head
+    != SocketStream
+    meta(charset="utf-8")    
+    meta(name="viewport",content="width=device-width, initial-scale=1.0, minimal-ui")
+    title Dashku
+  body
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container.switch-width
+          .row
+            .span6#brand-container
+              a.btn.btn-navbar(data-toggle="collapse", data-target=".nav-collapse")
+              a(href="/").brand
+                div
+                | Dashku
+              #nav
+            #account
+    .container.switch-width#main
+    

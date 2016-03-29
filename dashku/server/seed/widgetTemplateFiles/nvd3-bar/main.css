@@ -1,0 +1,32 @@
+{
+  background-color: white;
+}
+
+g.disabled > circle{
+  fill:#FFF !important;;
+}
+
+.nvd3 path{
+  fill: none;
+  stroke-width:2;
+}
+
+.header {
+  color: black;
+}
+
+svg { 
+  font: 10px sans-serif;
+}
+
+.nvd3 line.tick {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .25;
+}
+
+.nvd3 line.zero {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: 1;
+}

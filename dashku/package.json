@@ -1,0 +1,16 @@
+{
+  "name": "servermon",
+  "version": "1.0.0",
+  "description": "Server Side Module to Dashku Web",
+  "main": "osMonitor_dashku.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server",
+    "monitor",
+    "dashku"
+  ],
+  "author": "paul chabot",
+  "license": "ISC"
+}

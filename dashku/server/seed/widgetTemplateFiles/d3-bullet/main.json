@@ -1,0 +1,25 @@
+{
+  "targets": [
+    {
+      "title": "Bad",
+      "color": "#ae432e",
+      "start": 0,
+      "width": 70
+    },
+    {
+      "title": "OK",
+      "color": "#efaa24",
+      "start": 70,
+      "width": 30
+    },
+    {
+      "title": "Good",
+      "color": "#77ab13",
+      "start": 100,
+      "width": 20
+    }
+  ],
+  "projected": 110,
+  "current":   90,
+  "previous":  75
+}

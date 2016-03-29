@@ -1,0 +1,17 @@
+svg text {
+  fill: white;
+}
+
+.a {
+  stroke: none;
+  fill: steelblue;
+}
+
+.b {
+  stroke: none;
+  fill: lightblue;
+}
+
+line {
+  stroke: white;
+}
